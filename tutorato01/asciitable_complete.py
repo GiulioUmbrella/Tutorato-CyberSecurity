@@ -6,7 +6,7 @@ def print_ascii_table_block(v):
     print(f"{v:>4}{hex(v)[2:]:>5}{chr(v):>4}|",end='')
 
 def print_ascii_table():
-    print(f"Dex Hex {'Chr':>20}| Dex Hex Chr | Dex Hex Chr | Dex Hex Chr |")
+    print(f"Dex Hex {'Chr':>20}| Dex  Hex Chr| Dex  Hex Chr| Dex  Hex Chr|")
     for v1 in range(32):
         print(f"{v1:>3}{hex(v1)[2:]:>4}{x[v1]:>21}|",end='')
         print_ascii_table_block(v1+32)
