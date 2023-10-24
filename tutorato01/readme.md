@@ -54,20 +54,21 @@ Now open the file with a text editor - we recommend Visual Studio Code- and do t
 2. Implement a `print_ascii_table_block` that for a give integer prints the char and its hexadecimal value
 3. Implement a `print_ascii_table` to print the whole table
 
-# Suggested settings
+## Suggested settings
 
 Enable visual studio code autosave
 
 https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save
 
 
-# Exercises
+## Exercises
 
-Expand the table to print an additional column with the value from 0 to 32. 
+Expand the table to print an additional column with the value from 0 to 32. These value are not printable character, so we cannot use the `chr` function to print a char. Where can we take the value from?  
+**Hint** list can be used to store string values. 
 
 
-# Reference
+## Reference
 
-https://realpython.com/python-shebang/
-https://realpython.com/python-f-strings/
-https://www.geeksforgeeks.org/python-lists/
+- https://realpython.com/python-shebang/
+- https://realpython.com/python-f-strings/
+- https://www.geeksforgeeks.org/python-lists/
