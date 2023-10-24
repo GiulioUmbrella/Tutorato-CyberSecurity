@@ -64,7 +64,7 @@ https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save
 
 ## Exercises
 
-Expand the table to print an additional column with the value from 0 to 32. These value are not printable character, so we cannot use the `chr` function to print a char. Where can we take the value from?  
+- Expand the table to print an additional column with the value from 0 to 32. These value are not printable character, so we cannot use the `chr` function to print a char. Where can we take the value from?  
 **Hint** list can be used to store string values. 
  
 - Create a `base64.py` program to print the base64 table
