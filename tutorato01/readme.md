@@ -1,3 +1,4 @@
+
 # Ascii characters 
 
 **GOAL** implements a function to print the ascii characters from 32 to 127. For example, if we write a .py file and we run it `asciitable.py` we obtain the following:
@@ -63,9 +64,14 @@ https://code.visualstudio.com/docs/editor/codebasics#_save-auto-save
 
 ## Exercises
 
+<<<<<<< HEAD
 Expand the table to print an additional column with the value from 0 to 32. These value are not printable character, so we cannot use the `chr` function to print a char. Where can we take the value from?  
 **Hint** list can be used to store string values. 
 
+=======
+- Expand the table to print an additional column with the value from 0 to 32. 
+- Create a `base64.py` program to print the base64 table
+>>>>>>> 3d7be347c153acfe9e579e933a5d31735eb3cf1a
 
 ## Reference
 
